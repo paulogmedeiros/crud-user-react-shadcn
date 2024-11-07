@@ -21,6 +21,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Navbar } from "@/components/navbar/Navbar";
+import { Link } from "react-router-dom";
 
 export function CreateUserForm() {
   const [name, setName] = useState("");
@@ -57,7 +58,7 @@ export function CreateUserForm() {
   return (
     <div>
       <Navbar />
-      <div className="flex items-center justify-center min-h-screen bg-background">
+      <div className="flex items-center justify-center bg-background mt-44">
         <Card className="w-full max-w-2xl mx-auto">
           <CardHeader>
             <CardTitle className="text-2xl font-bold">
@@ -110,7 +111,7 @@ export function CreateUserForm() {
             </CardContent>
             <CardFooter className="flex justify-between">
               <Button type="button" variant="outline" onClick={handleCancel}>
-                Cancelar
+                <Link to="/showUser">Cancelar</Link>
               </Button>
               <Button type="submit">Criar Usuário</Button>
             </CardFooter>

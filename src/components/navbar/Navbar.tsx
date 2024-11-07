@@ -3,8 +3,8 @@ import { NavLink } from "./NavLink";
 import { MobileMenu } from "./MobileMenu";
 
 const NavLinks = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "Sobre" },
+  { href: "/home", label: "Home" },
+  { href: "/showUser", label: "User" },
   { href: "/services", label: "Serviços" },
   { href: "/contact", label: "Contato" },
 ];

@@ -9,12 +9,12 @@ interface MobileMenuProps {
 }
 
 const NavLinks = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "Sobre" },
-    { href: "/services", label: "Serviços" },
-    { href: "/contact", label: "Contato" },
-  ];
-  
+  { href: "/home", label: "Home" },
+  { href: "/showUser", label: "User" },
+  { href: "/services", label: "Serviços" },
+  { href: "/contact", label: "Contato" },
+];
+
 export function MobileMenu({ isOpen, onOpenChange }: MobileMenuProps) {
   return (
     <Sheet open={isOpen} onOpenChange={onOpenChange}>
