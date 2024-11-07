@@ -1,15 +1,3 @@
-// import { Link } from 'react-router-dom';
-
-// export function Home() {
-//   return (
-//     <div>
-//       <h1>Home Page</h1>
-//       <p>Bem-vindo à página inicial!</p>
-//       <Link to="/about">Ir para Sobre Nós</Link>
-//     </div>
-//   );
-// }
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
